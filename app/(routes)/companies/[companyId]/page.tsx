@@ -7,7 +7,7 @@ import FooterCompany from "./components/FooterCompany/FooterCompany";
 
 
 
-export default async function CompanyIdPage({ params }: { params: { companyId: string } }) {
+export default async function Page({ params }: { params: { companyId: string } }) {
 
     const { userId } = await auth();
     if (!userId) {
