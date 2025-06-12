@@ -5,9 +5,14 @@ import Header from "./components/Header/Header";
 import CompanyInformation from "./components/CompanyInformation/CompanyInformation";
 import FooterCompany from "./components/FooterCompany/FooterCompany";
 
+interface PageProps {
+    params: {
+        companyId: string
+    }
+}
 
 
-export default async function Page({ params }: { params: { companyId: string } }) {
+export default async function Page({ params }: PageProps) {
 
     const { userId } = await auth();
     if (!userId) {
