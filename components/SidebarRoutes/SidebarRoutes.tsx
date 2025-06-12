@@ -42,7 +42,7 @@ export default function SidebarRoutes() {
                 </div>
                 <Separator />
                 <footer className='mt-3 p-3 text-center'>
-                    2025. All rights reserved - V ♥.
+                    2025. All rights reserved Con ❤️ por <a href="https://portfolio-vanina-luna.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">V.L.</a>
                 </footer>
             </div>
         </div>
